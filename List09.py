@@ -16,5 +16,5 @@ def main(list1):
         else:
             w=False
         a+=1
-    return w
+    return w 
 print(main([1,1,1,1,1,1,1]))
