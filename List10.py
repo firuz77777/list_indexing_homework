@@ -6,4 +6,12 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    a = list_num[1:-1]
+    q=0
+    max=a[0]
+    while q<len(a):
+        if max<a[q]:
+            max=a[q]
+        q+=1
+    return max
+print(main([1,2,3,4,5,6,7]))
