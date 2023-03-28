@@ -9,7 +9,7 @@ def main(list1):
     a1=0
     a=0
     while a<len(list1):
-        if list1[a]!=list1[1]:
+        if list1[a]==list1[1]:
             a1=1
         if a1==1:
             w=True
